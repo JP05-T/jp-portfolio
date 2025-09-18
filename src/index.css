@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide the Bolt "Made in Bolt" logo */
+body > div:last-child {
+  display: none !important;
+}
